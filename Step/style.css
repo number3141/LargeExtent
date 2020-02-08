@@ -1,0 +1,37 @@
+input {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #1E3C5F; 
+  position: relative;
+}
+
+.block {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin-top: 300px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 18px;
+}
